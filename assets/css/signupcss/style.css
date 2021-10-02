@@ -49,6 +49,7 @@ body {
   line-height: 1.8;
   font-family: iranyekan !important;
   color: #8d8d90;
+  overflow-y: scroll;
 }
 
 p {
@@ -98,10 +99,6 @@ img {
   max-width: 100%;
 }
 
-.ptb-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 .pt-100 {
   padding-top: 100px;
@@ -2576,198 +2573,7 @@ Inner Banner End
 /*================================
 Contact Pages End
 ==================================*/
-.contact-wrap-form {
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  padding: 50px;
-}
 
-.contact-wrap-form p {
-  text-align: center;
-  color: #000;
-  margin-bottom: 0;
-  font-family: iranyekan !important;
-}
-
-.contact-wrap-form .form-group {
-  margin-bottom: 25px;
-}
-
-.contact-wrap-form .form-group .form-control {
-  height: 50px;
-  color: #2d3652;
-  border: 1px solid #e8e8e8;
-  background-color: #fcfcff;
-  border-radius: 0;
-  padding: 10px 20px;
-  width: 100%;
-  font-family: 'iranyekan' !important;
-}
-
-.contact-wrap-form .form-group .form-control:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-color: #2d3652;
-}
-
-.contact-wrap-form .form-group textarea.form-control {
-  height: auto;
-}
-
-.contact-wrap-form .with-errors {
-  float: left;
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  color: #f00;
-  font-weight: 400;
-  display: block;
-}
-
-.contact-wrap-form .default-btn {
-  border: 0;
-  outline: none;
-}
-
-.contact-wrap-form .text-danger {
-  font-size: 18px;
-  margin-top: 15px;
-}
-
-.contact-wrap-form .sing-social-icon {
-  list-style: none;
-  margin: 30px 0;
-  padding: 0;
-}
-
-.contact-wrap-form .sing-social-icon li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.contact-wrap-form .sing-social-icon li a {
-  font-size: 24px;
-  height: 50px;
-  line-height: 55px;
-  width: 120px;
-  background-color: #2d3652;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-.contact-wrap-form .sing-social-icon li a:hover {
-  background-color: #ff743c;
-}
-
-.contact-wrap-form .agree-label label {
-  font-weight: 600;
-  color: #000;
-  margin-left: 10px;
-}
-
-.contact-wrap-form .forget {
-  margin-bottom: 15px;
-  float: right;
-  color: #6d6d6d !important;
-  font-weight: 600;
-}
-
-.contact-wrap-form .forget:hover {
-  color: #4356d6;
-}
-
-.contact-wrap-form .account-desc {
-  margin-top: 15px;
-  font-weight: 600;
-}
-
-.contact-wrap-form .account-desc a {
-  color: #6d6d6d;
-}
-
-.sign {
-  padding-top: 30px;
-}
-
-.contact-wrap-form .account-desc a:hover {
-  color: #4356d6;
-}
-
-.sign > .border-btn > .border-btn__inner {
-  padding: 15px 100px 15px 100px;
-  letter-spacing: normal;
-  font-size: 20px;
-  font-family: iranyekanbold;
-}
-
-.contact-wrap-form .sing-btn {
-  padding: 12px 70px;
-}
-
-.contact-wrap-form .recover-login {
-  color: #6d6d6d;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.contact-wrap-form .recover-login:hover a {
-  color: #4356d6;
-}
-
-.contact-wrap-form .recover-register {
-  color: #000000;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.contact-wrap-form .recover-register a {
-  color: #6d6d6d;
-}
-
-.contact-wrap-form .recover-register a:hover {
-  color: #4356d6;
-}
-
-.contact-wrap-form .scetion-title .recover-text {
-  color: #000;
-  margin-bottom: 25px;
-}
-
-.contact-wrap-form .scetion-title .recover-text a {
-  color: #6d6d6d;
-  font-weight: 600;
-}
-
-.contact-wrap-form .scetion-title .recover-text a:hover {
-  color: #4356d6;
-}
-
-.contact-wrap-form .form-group .form-control::-webkit-input-placeholder {
-  color: #2d3652;
-}
-
-.contact-wrap-form .form-group .form-control:-ms-input-placeholder {
-  color: #2d3652;
-}
-
-.contact-wrap-form .form-group .form-control::-ms-input-placeholder {
-  color: #2d3652;
-}
-
-.contact-wrap-form .form-group .form-control::placeholder {
-  color: #2d3652;
-}
-
-.sing-in-width {
-  max-width: 570px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /*================================
 Contact Pages End
